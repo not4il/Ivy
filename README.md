@@ -30,7 +30,7 @@ python3 IvyCM.py
 <br><br>
 5 - Wait For The Progress To Finished
 <br><br>
-![Watch the video](http://s12.picofile.com/file/8399761976/shot4.png)
+![Watch the video](http://s13.picofile.com/file/8399761976/shot4.png)
 <br><br>
 6 - Your Combolist Was Created
 <br>
