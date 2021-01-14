@@ -39,6 +39,4 @@ The Combolist Name Is: combolist.txt
 ![Watch the video](http://s13.picofile.com/file/8399762018/shot5.png)
 <br>
 To Exit Or Stop The Progress Use "ctrl + c"
-<br><br>
-# Executable File
-As You Worked With The Script!
+<br>
