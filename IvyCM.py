@@ -24,7 +24,7 @@ def banner():
  _| |\ V /| |_| | |___| (_) | | | | | | |_) | (_) | |  | | (_| |   <  __/ |   
 |_____\_/  \__, |\_____\___/|_| |_| |_|_.__/ \___/|_|  |_|\__,_|_|\_\___|_|   
             __/ |                                                             
-           |___/                  {color.BLUE1}github.com/one-eyed    {color.BLACK}\n''')
+           |___/                  {color.BLUE1}github.com/weed-web    {color.BLACK}\n''')
 
 combolist = []
 
