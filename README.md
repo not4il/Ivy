@@ -1,5 +1,5 @@
 # IvyComboMaker
-This Script Allows You To Make Combolist With User/Email And Password List
+This script allows you to make combolist with user/email and password list
 <br><br>
 # Libraries
 using pip to install:
@@ -9,34 +9,34 @@ pip install alive_progress
 # Requirments
 1- Python3
 <br>
-2- User/Email & Password List
+2- User/Email & Password list
 <br><br>
 # Guide
-1 - Run The Script Using Command:
+1 - Run the script using command:
 <br>
 python3 IvyCM.py
 <br><br>
-2 - Type Your User/Email List Name (e.g. username.txt):
+2 - Type your user/email list name (e.g. username.txt):
 <br><br>
 ![Watch the video](http://s12.picofile.com/file/8399760950/shot1.png)
 <br><br>
-3 - Type Your Password List Name (e.g. password.txt):
+3 - Type your password list name (e.g. password.txt):
 <br><br>
 ![Watch the video](http://s12.picofile.com/file/8399761534/shot2.png)
 <br><br>
-4 - Type Your Character You Like To Put Between Them (e.g. :, ;, @):
+4 - Type your character you like to put between them (e.g. :, ;, @):
 <br><br>
 ![Watch the video](http://s12.picofile.com/file/8399761884/shot3.png)
 <br><br>
-5 - Wait For The Progress To Finished
+5 - Wait for the progress to finished
 <br><br>
 ![Watch the video](http://s13.picofile.com/file/8399761976/shot4.png)
 <br><br>
-6 - Your Combolist Was Created
+6 - Your combolist is created
 <br>
-The Combolist Name Is: combolist.txt
+The combolist name is: combolist.txt
 <br><br>
 ![Watch the video](http://s13.picofile.com/file/8399762018/shot5.png)
 <br>
-To Exit Or Stop The Progress Use "ctrl + c"
+To exit or stop the progress use "ctrl + c"
 <br>
