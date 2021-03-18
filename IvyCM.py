@@ -1,6 +1,7 @@
 from alive_progress import alive_bar
 import os, time, random
 
+
 class color():
 	RED = '\033[31m'
 	GREEN = '\033[32m'
@@ -13,8 +14,10 @@ class color():
 	WHITE = '\033[37m'
 	BLACK = '\033[1;30;48m'
 
+
 def clean():
 	os.system(['clear', 'cls'][os.name == 'nt'])
+
 
 def banner():
 	print(f'''{color.GREEN} _____            _____                _           __  __       _
@@ -24,9 +27,10 @@ def banner():
  _| |\ V /| |_| | |___| (_) | | | | | | |_) | (_) | |  | | (_| |   <  __/ |   
 |_____\_/  \__, |\_____\___/|_| |_| |_|_.__/ \___/|_|  |_|\__,_|_|\_\___|_|   
             __/ |                                                             
-           |___/                  {color.BLUE1}github.com/weed-web    {color.BLACK}\n''')
+           |___/                   {color.BLUE1}github.com/not4il    {color.BLACK}\n''')
 
 combolist = []
+
 
 def getuserfile():
 	try:
@@ -40,6 +44,7 @@ def getuserfile():
 	except OSError:
 		print(f'{color.RED}File Not Found!{color.WHITE}')
 
+
 def getpassfile():
 	try:
 		path_pss = input(f'{color.PURPLE}Enter Path (Default: File Path) Of Your Passwords Text File: {color.BLACK}')
@@ -52,12 +57,14 @@ def getpassfile():
 	except OSError:
 		print(f'{color.RED}File Not Found!{color.WHITE}')
 
+
 def getbetween():
 	btw = input(f'{color.CYAN}Enter A Character That You Like To Put Between Them: {color.BLACK}')
 	if(btw == ''):
 		print(f'{color.RED}Character Not Found!')
 	else:
 		return btw
+
 
 def makecombo(usernames, passwords, between):
 	a = len(usernames)
@@ -71,6 +78,7 @@ def makecombo(usernames, passwords, between):
 	file = open('combolist.txt','a')
 	for i in range(0, a*b):
 		file.write(k[i])
+
 
 def start():
 	try:
@@ -101,5 +109,6 @@ def start():
 		print(f'{color.RED}\nExiting...{color.WHITE}')
 		time.sleep(2)
 		exit()
+
 
 start()
